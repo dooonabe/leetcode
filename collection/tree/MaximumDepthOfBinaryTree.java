@@ -32,7 +32,7 @@ public class MaximumDepthOfBinaryTree {
 
     public int anotherMaxDepth(TreeNode root){
         if(root == null) return 0;
-        // Math.max is so fast!!!
+        // Math.max is so fast!!!!
         return 1+Math.max(anotherMaxDepth(root.left), anotherMaxDepth(root.right));
     }
 }
