@@ -12,7 +12,7 @@ public class ValidParentheses {
     private static Map<Byte, Byte> map;
 
     static {
-        map = new HashMap<>();
+        map = new HashMap<>(3);
         map.put(new Byte("40"), new Byte("41")); //()
         map.put(new Byte("123"), new Byte("125")); //{}
         map.put(new Byte("91"), new Byte("93"));//[]
